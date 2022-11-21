@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Mobile [
+<!ELEMENT Mobile (Company,Model,Price,Access)>
+<!ELEMENT Company (#PCDATA)>
+<!ELEMENT Model (#PCDATA)>
+<!ELEMENT Price (#PCDATA)>
+<!ELEMENT Access (#PCDATA)>
+<!ATTLIST Model type CDATA "samsung A52" >
+<!ATTLIST Model color CDATA "black" >
+<!ENTITY HP SYSTEM "hp.txt" > 
+<!ENTITY CH  SYSTEM "ch.txt" >
+<!ENTITY SK SYSTEM "sk.txt" >
+]>
+<Mobile>
+<Company>Samsung</Company>
+<Model></Model>
+<Price>65000 Rs</Price>
+<Access> &HP; &CH; &SK;</Access>
+</Mobile>

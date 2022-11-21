@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE notes [
+<!ELEMENT notes (note+)>
+<!ELEMENT note (to,from,name,message)>
+<!ELEMENT to (#PCDATA)>
+<!ELEMENT from (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT message (#PCDATA)>
+<!ATTLIST name fname CDATA #REQUIRED>
+<!ATTLIST name lname CDATA #IMPLIED >
+<!ATTLIST message subject CDATA #FIXED "Greeting Subject">
+]>
+<notes>
+<note> 
+<to>std1@gmail.com</to>
+<from>aptech@gmail.com</from>
+<name fname="M." lname="Ali">Muhammad Ali</name>
+<message> Happy new Year 20223</message>
+</note>
+
+<note> 
+<to>std2@gmail.com</to>
+<from>aptech@gmail.com</from>
+<name fname="M." lname="Ahmed">Muhammad Ahmed</name>
+<message> Happy new Year 20223</message>
+</note>
+
+</notes>

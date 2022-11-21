@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE StudentDetails [
+<!ELEMENT StudentDetails (Student+)>
+<!ELEMENT Student (id,fname,lname,city)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT fname (#PCDATA)>
+<!ELEMENT lname (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+]>
+<StudentDetails>
+	<Student>
+		<id>Student1372773</id>
+		<fname>Zainab</fname>
+		<lname>Khan</lname>
+		<city>Karachi</city>
+	</Student>
+	<Student>
+		<id>Student1382773</id>
+		<fname>Maria</fname>
+		<lname>Ahsan</lname>
+		<city>Lahore</city>
+	</Student>
+</StudentDetails>
